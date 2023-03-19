@@ -1,17 +1,17 @@
 load("@stb//:stb.bzl", "stb_library")
 
 STB_COPTS = [
-    "-Wno-sign-conversion",
-    "-Wno-conversion",
-    "-Wno-old-style-cast",
-    "-Wno-useless-cast",
-    "-Wno-shadow",
-    "-Wno-double-promotion",
-    "-Wno-unused-parameter",
-    "-Wno-maybe-uninitialized",
-    "-Wno-type-limits",
-    "-Wno-zero-as-null-pointer-constant",
-    "-Wno-cast-qual",
+#    "-Wno-sign-conversion",
+#    "-Wno-conversion",
+#    "-Wno-old-style-cast",
+#    "-Wno-useless-cast",
+#    "-Wno-shadow",
+#    "-Wno-double-promotion",
+#    "-Wno-unused-parameter",
+#    "-Wno-maybe-uninitialized",
+#    "-Wno-type-limits",
+#    "-Wno-zero-as-null-pointer-constant",
+#    "-Wno-cast-qual",
 ]
 
 stb_library(
