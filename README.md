@@ -9,7 +9,7 @@ git_repository(
     name = "stb",
     init_submodules = True,
     branch = "master",
-    remote = "https://github.com/nitronoid/rules_stb"
+    remote = "https://github.com/Itsr1ght/rules_stb"
 )
 ```
 You can then use the `stb` libraries via the `@stb` label.
